@@ -1,5 +1,5 @@
-# project_productos_alimenticios / project_food_products
-Comportamiento del usuario - Proyecto integrado / User Behavior - Integrated Project
+# Productos alimenticios / food products
+Comportamiento del usuario / User Behavior
 
 Sprint 11. Proyecto integrado 2 / Sprint 11. Integrated Project 2
 
