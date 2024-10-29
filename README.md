@@ -3,7 +3,7 @@ Comportamiento del usuario / User Behavior
 
 Sprint 11. Proyecto integrado 2 / Sprint 11. Integrated Project 2
 
-# Descripción del proyecto / Project Description
+## Descripción del proyecto / Project Description
 El proyecto se desarrolla en una empresa emergente que vende productos alimenticios. El objetivo es investigar el comportamiento del usuario en la aplicación de la empresa.
 
 Primero, se estudia el embudo de ventas para descubrir cómo los usuarios llegan a la etapa de compra. Se analizan cuántos usuarios realmente completan esta etapa y cuántos se quedan atascados en etapas anteriores, así como cuáles son esas etapas específicas.
