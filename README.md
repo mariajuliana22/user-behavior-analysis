@@ -1,4 +1,4 @@
-# Productos alimenticios / food products
+# Productos alimenticios / Food products
 Comportamiento del usuario / User Behavior
 
 Proyecto hecho para TripleTen (Bootcamp online) - Sprint 11. Proyecto integrado 2 / Project created for TripleTen (Online Bootcamp) - Sprint 11. Integrated Project 2
