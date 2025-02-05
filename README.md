@@ -36,6 +36,7 @@ The dataset used contains user-generated events with the following key variables
 - **Pandas**: Manipulación y limpieza de datos.
 - **Matplotlib**: Visualización de datos.
 - **SciPy**: Pruebas estadísticas para evaluar diferencias entre grupos.
+- **Datetime**: Manejo y análisis de datos de tiempo y fechas. 
 - **Jupyter Notebook**: Desarrollo y presentación del análisis.
 
 ---
@@ -44,6 +45,7 @@ The dataset used contains user-generated events with the following key variables
 - **Pandas:** Data manipulation and cleaning.
 - **Matplotlib:** Data visualization.
 - **SciPy:** Statistical tests to evaluate differences between groups.
+- **Datetime:** Handling and analyzing date and time data.
 - **Jupyter Notebook:** Development and presentation of the analysis.
 
 ## Resultados y Conclusiones / Results and Conclusions
