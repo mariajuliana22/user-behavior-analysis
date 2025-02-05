@@ -1,23 +1,28 @@
-# Productos alimenticios / Food products
-Comportamiento del usuario / User Behavior
+# Análisis del Comportamiento del Usuario
 
-Proyecto hecho para TripleTen (Bootcamp online) - Sprint 11. Proyecto integrado 2 / Project created for TripleTen (Online Bootcamp) - Sprint 11. Integrated Project 2
+## Contexto
+Este proyecto se enfoca en el análisis del comportamiento del usuario dentro de una aplicación de una empresa emergente que vende productos alimenticios. El objetivo principal es estudiar el embudo de ventas y evaluar los resultados de un experimento A/A/B para determinar si un cambio en las fuentes de la aplicación afecta la interacción de los usuarios.
 
-## Descripción del proyecto / Project Description
-El proyecto se desarrolla en una empresa emergente que vende productos alimenticios. El objetivo es investigar el comportamiento del usuario en la aplicación de la empresa.
+## Datos
+El dataset utilizado contiene eventos generados por los usuarios, con las siguientes variables principales:
+- **EventName:** Nombre del evento.
+- **DeviceIDHash:** Identificador único del usuario.
+- **EventTimestamp:** Marca de tiempo del evento.
+- **ExpId:** Número de experimento (246 y 247 son los grupos de control, 248 es el grupo de prueba).
 
-Primero, se estudia el embudo de ventas para descubrir cómo los usuarios llegan a la etapa de compra. Se analizan cuántos usuarios realmente completan esta etapa y cuántos se quedan atascados en etapas anteriores, así como cuáles son esas etapas específicas.
+## Objetivos del Proyecto
+1. **Análisis del embudo de ventas**: Evaluar en qué etapa del proceso los usuarios abandonan la aplicación y qué porcentaje completa una compra.
+2. **Evaluación del experimento A/A/B**: Analizar si el cambio de fuente en la aplicación tiene un impacto significativo en la interacción de los usuarios.
+3. **Validación de los grupos de control**: Comparar los grupos A/A para asegurarse de que la asignación de usuarios es correcta y no sesga los resultados.
 
-Luego, se revisan los resultados de un test A/A/B. El equipo de diseño considera cambiar las fuentes de toda la aplicación, pero la gerencia teme que el nuevo diseño resulte intimidante para los usuarios. Por lo tanto, deciden tomar una decisión basada en los resultados del test A/A/B.
+## Herramientas Utilizadas
+- **Python**: Lenguaje de programación principal para el análisis de datos.
+- **Pandas**: Manipulación y limpieza de datos.
+- **Matplotlib**: Visualización de datos.
+- **SciPy**: Pruebas estadísticas para evaluar diferencias entre grupos.
+- **Jupyter Notebook**: Desarrollo y presentación del análisis.
 
-Los usuarios se dividen en tres grupos: dos grupos de control (A y B) que utilizan las fuentes antiguas y un grupo de prueba (C) que utiliza las nuevas.
-
----
-
-The project is developed at a startup that sells food products. The goal is to research user behavior for the company's application.
-
-First, the sales funnel is studied to understand how users reach the purchase stage. We analyze how many users actually complete this stage and how many get stuck in earlier stages, as well as which specific stages these are.
-
-Then, we review the results of an A/A/B test. The design team would like to change the fonts throughout the application, but management fears that the new design might be intimidating for users. Therefore, they decide to make a decision based on the results of the A/A/B test.
-
-Users are divided into three groups: two control groups (A and B) that use the old fonts, and one test group (C) that uses the new ones.
+## Resultados y Conclusiones
+- Se identificaron las tasas de conversión en cada etapa del embudo de ventas.
+- Se encontró la etapa con mayor pérdida de usuarios y se hicieron recomendaciones para mejorar la retención.
+- Se evaluó el impacto del cambio de fuentes en el grupo de prueba y se comparó con los grupos de control para determinar su efecto en la interacción del usuario.
